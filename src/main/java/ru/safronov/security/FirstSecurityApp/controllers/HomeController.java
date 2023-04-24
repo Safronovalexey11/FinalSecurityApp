@@ -19,7 +19,7 @@ public class HomeController {
     public String adminPage() {
         return "admin";
     }
-    @GetMapping("/subscribder")
+    @GetMapping("/subscriber")
     public String subPage() {
         return "subscriber";
     }
